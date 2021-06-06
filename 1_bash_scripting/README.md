@@ -14,19 +14,15 @@ $ ./count.sh ..
 ```
 
 # `histogram.sh`
-Note: `GNU Awk 5.1.0` is used.
+Note: `gawk` is required. Please [install](https://www.gnu.org/software/gawk/manual/html_node/Installation.html) if you don't have it.
 
 Example:
 ```
 $ ./histogram.sh ../README.md
 ( ) =================== (19)
-(() = (1)
-()) = (1)
 (.) ========== (10)
 (/) = (1)
 (1) == (2)
-(2) = (1)
-(3) = (1)
 ...
 
 ```
