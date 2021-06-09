@@ -9,7 +9,11 @@ Suppose the we the network needs to at least to have 256 ip addresses (254 usabl
 
 NAT stands for Network Address Translation, in which the private IP address or local address are translated into the public IP address.
 
+![nat](./nat.png)
+
 PAT stands for Port Address Translation, in which private IP addresses are translated into the public IP address via Port numbers. PAT can be considered a type of NAT where the multiple private IP addresses are mapped into a single public IP (many-to-one) by using ports.
+
+![pat](./pat.png)
 
 Which method of address translation you use depends on the types of networks that you are translating and the number of available IP addresses that you have. NAT requires one-to-one mapping while PAT allows many-to-one.
 
